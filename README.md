@@ -13,7 +13,6 @@ This Python script automates adding an SSH public key to multiple remote servers
 
 3. **Run the Script**:
 ```bash
-
 python3 addkey.py
 
 -The script will connect to each server and add the key.
