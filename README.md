@@ -12,12 +12,11 @@ This Python script automates adding an SSH public key to multiple remote servers
 - Set public_key_path to your SSH public key file (e.g., ~/.ssh/id_ed25519.pub).
 
 3. **Run the Script**:
-```bash
-python3 addkey.py
+   ```bash
+   python3 addkey.py
 
 
-`
-#### The script will connect to each server and add the key.
+The script will connect to each server and add the key.
 
 ## Security Notes
 **Passwords**: Avoid hardcoding passwords in the script. Use environment variables or a secrets manager instead.
