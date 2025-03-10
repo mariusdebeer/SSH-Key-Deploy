@@ -17,8 +17,8 @@ This Python script automates adding an SSH public key to multiple remote servers
 
 The script will connect to each server and add the key.
 
-## Security Notes
-**Passwords**: Avoid hardcoding passwords in the script. Use environment variables or a secrets manager instead.
+## Future Security Features
+**Passwords**: Remove hardcoding passwords in the script. Use environment variables or a secrets manager instead.
 
 **Host Keys**: Uses AutoAddPolicy to auto-accept host keys, bypassing manual verification. For stricter security, pre-populate known_hosts and remove this policy.
 
